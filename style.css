@@ -147,6 +147,7 @@ p {
   }
   .head h1 {
     font-size: 1.6rem;
+    padding-top: 50px;
   }
   .head p {
     font-size: 0.7rem;
@@ -154,5 +155,14 @@ p {
   .head span {
     font-size: 0.4rem;
     margin-top: 10px;
+  }
+  .hero {
+    height: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    height: 300px;
   }
 }
