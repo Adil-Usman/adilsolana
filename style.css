@@ -9,6 +9,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 .mid {
   display: flex;
@@ -37,7 +39,7 @@ nav {
   color: white;
   border: 1px solid white;
 }
-
+/* Navbar Responsive */
 @media (max-width: 810px) {
   .mid {
     gap: 20px;
@@ -55,5 +57,102 @@ nav {
   .mid i {
     color: white;
     font-size: 2rem;
+  }
+}
+.hero {
+  width: 99.7%;
+  height: 570px;
+  border: 2px solid black;
+  display: flex;
+  background-image: url(ad.png);
+  background-size: cover;
+  justify-content: center;
+}
+.hero img {
+  width: 100%;
+  z-index: -1;
+}
+.head h1,
+p {
+  color: white;
+  font-family: sans-serif;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+}
+.head p {
+  font-size: 1.5rem;
+}
+.head h1 {
+  font-size: 4rem;
+}
+.btn1,
+.btn2 {
+  padding: 1rem;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: normal;
+  width: 200px;
+  font-size: 1rem;
+}
+.btn1 {
+  background-image: linear-gradient(to right, #bf60ec, #2e0d57);
+  color: white;
+  border: none;
+}
+.btn2 {
+  background-color: black;
+  color: white;
+  border: none;
+  border: 2px solid white;
+  width: 140px;
+}
+.btn1:hover {
+  color: black;
+  background-image: linear-gradient(white, white);
+}
+.btn2:hover {
+  background-color: white;
+  color: black;
+}
+.head span {
+  color: #64a9f2;
+  font-size: 1rem;
+  word-spacing: 3px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+@media (max-width: 850px) {
+  .head h1 {
+    font-size: 2.5rem;
+  }
+  .head p {
+    font-size: 1.2rem;
+  }
+  .head span {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 550px) {
+  .btn1,
+  .btn2 {
+    width: 120px;
+    font-size: 0.7rem;
+    padding: 12px;
+  }
+  .head h1 {
+    font-size: 1.6rem;
+  }
+  .head p {
+    font-size: 0.7rem;
+  }
+  .head span {
+    font-size: 0.4rem;
+    margin-top: 10px;
   }
 }
