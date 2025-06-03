@@ -59,7 +59,7 @@ nav {
     font-size: 2rem;
   }
   nav {
-    width: 101%;
+    width: 102%;
   }
 }
 .hero {
@@ -148,6 +148,9 @@ p {
     font-size: 0.7rem;
     padding: 12px;
   }
+  .hero {
+    width: 101%;
+  }
   .head h1 {
     font-size: 1.6rem;
     padding-top: 50px;
@@ -192,12 +195,12 @@ p {
 }
 @media (max-width: 647px) {
   .sponser {
-    flex-direction: column;
+    width: 102%;
   }
-
   .sponser img {
-    width: 100px;
+    width: 40px;
     margin: auto;
+    height: 15px;
   }
   .ph1,
   .ph2,
@@ -208,18 +211,21 @@ p {
 }
 @media (max-width: 450px) {
   .sponser img {
-    width: 60px;
+    width: 30px;
   }
   .sponser {
-    flex-direction: column;
-    gap: 10px;
-    width: 101%;
+    width: 102%;
   }
   .ph3 {
     justify-content: center;
-    width: 300px;
   }
-  .ph3 img {
-    width: 70px;
+}
+@media (max-width: 367px) {
+  .sponser {
+    gap: 15px;
+  }
+  .sponser img {
+    width: 25px;
+    height: 10px;
   }
 }
