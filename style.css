@@ -229,3 +229,137 @@ p {
     height: 10px;
   }
 }
+/* CAPTION SECTION */
+.aba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: #121212;
+}
+.main {
+  width: 70%;
+  height: 70%;
+
+  border-radius: 10px;
+  background-color: #1b1622;
+  display: flex;
+}
+.m-left img {
+  width: 450px;
+  border-radius: 10px;
+}
+.m-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+}
+.m-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  gap: 25px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+.deve {
+  padding: 10px;
+
+  background-image: linear-gradient(to right, #1ef19f, #66aef3);
+  border-radius: 17px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.m-right h2 {
+  font-weight: lighter;
+  color: gray;
+  font-size: 1.5rem;
+}
+.m-right p {
+  color: gray;
+  font-size: 1rem;
+}
+.but {
+  padding: 12px;
+  background-color: black;
+  border: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 1rem;
+  border-radius: 20px;
+  transition: all 0.54s;
+}
+.but:hover {
+  background-color: white;
+  color: black;
+  font-weight: 6;
+}
+@media (max-width: 1122px) {
+  .m-left img {
+    width: 350px;
+  }
+
+  .m-right h2 {
+    font-size: 1rem;
+  }
+  .deve {
+    padding: 5px;
+  }
+  .but {
+    padding: 7px;
+  }
+  .m-right p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 805px) {
+  .main {
+    flex-direction: column;
+  }
+  .m-left {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .m-left img {
+    margin: auto;
+  }
+  .aba {
+    height: 600px;
+    width: 102%;
+  }
+  .m-right h2 {
+    font-size: 1.5rem;
+  }
+  .m-right p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 510px) {
+  .m-left img {
+    width: 250px;
+  }
+}
+@media (max-width: 450px) {
+  .m-left img {
+    width: 160px;
+  }
+  .m-left {
+    padding: 2px;
+    padding-top: 10px;
+  }
+  .m-right h2 {
+    font-size: 1.3rem;
+  }
+  .m-right p {
+    font-size: 0.9rem;
+  }
+}
