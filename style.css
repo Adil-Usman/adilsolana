@@ -58,6 +58,9 @@ nav {
     color: white;
     font-size: 2rem;
   }
+  nav {
+    width: 101%;
+  }
 }
 .hero {
   width: 99.7%;
@@ -164,5 +167,59 @@ p {
 @media (max-width: 400px) {
   .hero {
     height: 300px;
+  }
+}
+.sponser {
+  background-color: #131214;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.sponser img {
+  width: 80px;
+  height: 20px;
+}
+.ph1,
+.ph2,
+.ph3 {
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 915px) {
+  .sponser img {
+    width: 50px;
+  }
+}
+@media (max-width: 647px) {
+  .sponser {
+    flex-direction: column;
+  }
+
+  .sponser img {
+    width: 100px;
+    margin: auto;
+  }
+  .ph1,
+  .ph2,
+  .ph3 {
+    display: flex;
+    gap: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .sponser img {
+    width: 60px;
+  }
+  .sponser {
+    flex-direction: column;
+    gap: 10px;
+    width: 101%;
+  }
+  .ph3 {
+    justify-content: center;
+    width: 300px;
+  }
+  .ph3 img {
+    width: 70px;
   }
 }
