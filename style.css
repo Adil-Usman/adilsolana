@@ -642,6 +642,7 @@ p {
     margin-top: 0;
   }
 }
+/* text Section  */
 .t-section {
   display: flex;
   justify-content: space-around;
@@ -663,6 +664,7 @@ p {
   border: 2px solid white;
   font-size: 1rem;
 }
+/* text section responsive */
 @media (max-width: 705px) {
   .des {
     font-size: 1.2rem;
@@ -682,5 +684,120 @@ p {
   }
   .study {
     padding: 10px;
+  }
+}
+/* Xp Section  */
+.xp {
+  width: 1700px;
+
+  height: 700px;
+  padding: 50px;
+}
+.x-top {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 350px;
+  width: 98%;
+
+  border: 2px solid white;
+  background-image: url(xp2.png);
+  background-size: 100% 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.arrow {
+  border: 2px solid white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.case {
+  height: 20px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #9945ff;
+  font-family: sans-serif;
+  text-align: center;
+}
+.x-top h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.x-top p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.x-bottom {
+  color: white;
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+.card {
+  border: 2px solid white;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  font-family: sans-serif;
+  background-image: url(xp3.png);
+  background-size: cover;
+}
+.card p {
+  font-size: 1.5rem;
+}
+@media (max-width: 1750px) {
+  .xp {
+    width: 1250px;
+  }
+  .card {
+    gap: 20px;
+  }
+}
+@media (max-width: 1328px) {
+  .x-bottom {
+    flex-direction: column;
+  }
+  .x-top {
+    margin-left: 10px;
+    width: 320px;
+    margin: auto;
+  }
+  .card {
+    width: 300px;
+    align-items: center;
+    margin: auto;
+  }
+  .xp {
+    width: 50%;
+  }
+  .hew {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .xp {
+    width: 60%;
+  }
+}
+@media (max-width: 510px) {
+  .xp {
+    width: 300px;
+    padding: 0px;
+    height: 1800px;
+  }
+  .card {
+    width: 200px;
+    height: 400px;
+  }
+  .x-top {
+    width: 220px;
   }
 }
