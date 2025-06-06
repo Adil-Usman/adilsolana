@@ -700,8 +700,6 @@ p {
   gap: 20px;
   height: 350px;
   width: 98%;
-
-  border: 2px solid white;
   background-image: url(xp2.png);
   background-size: 100% 100%;
   padding: 10px;
@@ -751,6 +749,7 @@ p {
 .card p {
   font-size: 1.5rem;
 }
+/* Xp Responsive */
 @media (max-width: 1750px) {
   .xp {
     width: 1250px;
@@ -775,6 +774,7 @@ p {
   }
   .xp {
     width: 50%;
+    height: 1450px;
   }
   .hew {
     display: flex;
@@ -784,6 +784,9 @@ p {
 @media (max-width: 600px) {
   .xp {
     width: 60%;
+  }
+  .arrow {
+    display: none;
   }
 }
 @media (max-width: 510px) {
@@ -798,5 +801,52 @@ p {
   }
   .x-top {
     width: 220px;
+  }
+  .arrow {
+    display: none;
+  }
+}
+/* build  */
+.build {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+.build h1 {
+  font-size: 4rem;
+}
+
+.buttons button {
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  background-color: #242225;
+}
+.buttons button:hover {
+  background-color: #322f33;
+}
+/* Build Responsive */
+@media (max-width: 588px) {
+  .build h1 {
+    font-size: 2rem;
+  }
+  .buttons button {
+    padding: 10px;
+  }
+  .build {
+    padding: 10px;
+  }
+}
+@media (max-width: 380px) {
+  .build h1 {
+    font-size: 1.5rem;
+  }
+  .buttons button {
+    padding: 10px;
+    font-size: 0.7rem;
   }
 }
