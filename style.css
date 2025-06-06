@@ -846,6 +846,7 @@ p {
     font-size: 0.5rem;
   }
 }
+/* Shopify Section */
 .shop {
   display: flex;
   margin-top: 40px;
@@ -871,6 +872,7 @@ p {
 .shopi span {
   font-size: 1.2rem;
 }
+/* Shopify Section */
 @media (max-width: 1328px) {
   .shop {
     flex-direction: column;
@@ -905,5 +907,22 @@ p {
   }
   .shopi {
     width: 300px;
+  }
+}
+/* Logo Section */
+.logo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Logo Section Responsive */
+@media (max-width: 700px) {
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .logo img {
+    width: 170px;
   }
 }
