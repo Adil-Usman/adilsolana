@@ -830,23 +830,19 @@ p {
   background-color: #322f33;
 }
 /* Build Responsive */
-@media (max-width: 588px) {
-  .build h1 {
-    font-size: 2rem;
-  }
-  .buttons button {
-    padding: 10px;
-  }
+@media (max-width: 1000px) {
   .build {
-    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 560px) {
   .build h1 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
+}
+@media (max-width: 400px) {
   .buttons button {
-    padding: 10px;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 }
