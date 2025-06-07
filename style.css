@@ -923,6 +923,245 @@ p {
     gap: 50px;
   }
   .logo img {
-    width: 170px;
+    width: 150px;
+  }
+}
+/* thri Section */
+.thri h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+.thri {
+  padding-left: 50px;
+}
+@media (max-width: 565px) {
+  .thri h1 {
+    font-size: 1.2rem;
+  }
+}
+.puyo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  width: 1780px;
+  height: 600px;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.boxes1,
+.boxes2,
+.boxes3,
+.boxes4,
+.boxes5,
+.boxes6,
+.boxes7,
+.boxes8 {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+.move {
+  display: flex;
+  gap: 20px;
+}
+.boxes1 {
+  height: 550px;
+  width: 300px;
+  background-image: url(grid.png);
+  background-size: 100% 100%;
+}
+/* t */
+.boxes2 {
+  height: 550px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.tota {
+  background-color: #0e6975;
+  width: 150px;
+  height: 150px;
+}
+.boxes3 {
+  height: 550px;
+  width: 600px;
+  background-image: url(grid4.png);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* t */
+.boxes4 {
+  height: 550px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.mota {
+  background-color: #0e6975;
+  width: 150px;
+  height: 150px;
+}
+.boxes5 {
+  height: 550px;
+  width: 300px;
+  background-image: url(grid6.png);
+  background-size: 100% 100%;
+  padding: 10px;
+}
+/* t */
+.boxes6 {
+  height: 550px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+
+  justify-content: center;
+}
+.nota {
+  background-color: #0e6975;
+  width: 150px;
+  height: 150px;
+}
+
+.boxes7 {
+  height: 550px;
+  width: 600px;
+  background-image: url(grid3.png);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* t */
+.boxes8 {
+  height: 550px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.lota {
+  background-color: #1d1a23;
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+#loge {
+  background-image: url(grid1.png);
+  width: 350px;
+}
+.lota h1 {
+  color: #1ef19f;
+  font-size: 2.5rem;
+}
+#two {
+  background-image: url(grid2.png);
+  width: 400px;
+  height: 300px;
+  background-size: 100% 100%;
+}
+.tota {
+  background-color: #1d1a23;
+  color: #d5dd69;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#strip {
+  background-image: url(grid5.png);
+  background-size: 100% 100%;
+  width: 300px;
+  height: 300px;
+}
+.mota p {
+  color: rgb(26, 85, 248);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.mota {
+  background-color: #1d1a23;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  gap: 20px;
+  border-radius: 10px;
+}
+.mota h1 {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: lighter;
+}
+#loei {
+  background-image: url(grid7.png);
+  width: 300px;
+  height: 300px;
+  background-size: 100% 100%;
+}
+.nota {
+  background-color: #1d1a23;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  gap: 20px;
+  border-radius: 10px;
+}
+.nota h1 {
+  color: #eb54bb;
+  font-size: 3rem;
+}
+.move {
+  animation-name: identifier;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes identifier {
+  from {
+    transform: translateX(-2000px);
+  }
+  to {
+    transform: translateX(0px);
   }
 }
