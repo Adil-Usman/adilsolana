@@ -1166,3 +1166,63 @@ p {
     transform: translateX(0px);
   }
 }
+.page h1 {
+  color: white;
+  font-size: 4.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+.page button {
+  padding: 20px;
+  color: white;
+  background-image: linear-gradient(to right, #bf60ec, #2e0d57);
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  width: 80%;
+  background-color: #1d1a23;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+.m-page {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.page button:hover {
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+
+  color: black;
+}
+@media (max-width: 1116px) {
+  .page h1 {
+    font-size: 2.5rem;
+  }
+  .page button {
+    font-size: 2.5rex;
+    padding: 20px;
+  }
+}
+@media (max-width: 740px) {
+  .page h1 {
+    font-size: 1.5rem;
+  }
+  .page button {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+}
+@media (max-width: 443px) {
+  .page h1 {
+    font-size: 1.1rem;
+  }
+  .page button {
+    font-size: 0.7rem;
+  }
+}
