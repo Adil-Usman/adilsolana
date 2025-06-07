@@ -1298,6 +1298,7 @@ p {
 @media (max-width: 980px) {
   .l-section {
     flex-direction: column;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 560px) {
